@@ -1,0 +1,56 @@
+*** memory map before mapping file ***
+55e4ecc54000-55e4ecc55000 r--p 00000000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc55000-55e4ecc56000 r-xp 00001000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc56000-55e4ecc57000 r--p 00002000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc57000-55e4ecc58000 r--p 00002000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc58000-55e4ecc59000 rw-p 00003000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4edce7000-55e4edd08000 rw-p 00000000 00:00 0                          [heap]
+7fb4caa1b000-7fb4caa40000 r--p 00000000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4caa40000-7fb4cabb8000 r-xp 00025000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cabb8000-7fb4cac02000 r--p 0019d000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac02000-7fb4cac03000 ---p 001e7000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac03000-7fb4cac06000 r--p 001e7000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac06000-7fb4cac09000 rw-p 001ea000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac09000-7fb4cac0f000 rw-p 00000000 00:00 0 
+7fb4cac21000-7fb4cac22000 r--p 00000000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac22000-7fb4cac45000 r-xp 00001000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac45000-7fb4cac4d000 r--p 00024000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac4e000-7fb4cac4f000 r--p 0002c000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac4f000-7fb4cac50000 rw-p 0002d000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac50000-7fb4cac51000 rw-p 00000000 00:00 0 
+7ffce7cfb000-7ffce7d1c000 rw-p 00000000 00:00 0                          [stack]
+7ffce7daa000-7ffce7dae000 r--p 00000000 00:00 0                          [vvar]
+7ffce7dae000-7ffce7db0000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+*** succeeded to map file: address = 0x7fb4c461b000; size = 6400000 ***
+*** memory map after mapping file ***
+55e4ecc54000-55e4ecc55000 r--p 00000000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc55000-55e4ecc56000 r-xp 00001000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc56000-55e4ecc57000 r--p 00002000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc57000-55e4ecc58000 r--p 00002000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4ecc58000-55e4ecc59000 rw-p 00003000 08:05 1847114                    /home/jun/Projects/linux_structure/5/filemap
+55e4edce7000-55e4edd08000 rw-p 00000000 00:00 0                          [heap]
+7fb4c461b000-7fb4caa1b000 rw-s 00000000 08:05 1836003                    /home/jun/Projects/linux_structure/5/testfile
+7fb4caa1b000-7fb4caa40000 r--p 00000000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4caa40000-7fb4cabb8000 r-xp 00025000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cabb8000-7fb4cac02000 r--p 0019d000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac02000-7fb4cac03000 ---p 001e7000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac03000-7fb4cac06000 r--p 001e7000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac06000-7fb4cac09000 rw-p 001ea000 08:05 400066                     /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7fb4cac09000-7fb4cac0f000 rw-p 00000000 00:00 0 
+7fb4cac21000-7fb4cac22000 r--p 00000000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac22000-7fb4cac45000 r-xp 00001000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac45000-7fb4cac4d000 r--p 00024000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac4e000-7fb4cac4f000 r--p 0002c000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac4f000-7fb4cac50000 rw-p 0002d000 08:05 399848                     /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7fb4cac50000-7fb4cac51000 rw-p 00000000 00:00 0 
+7ffce7cfb000-7ffce7d1c000 rw-p 00000000 00:00 0                          [stack]
+7ffce7daa000-7ffce7dae000 r--p 00000000 00:00 0                          [vvar]
+7ffce7dae000-7ffce7db0000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+*** file contents before overwrite mapped region: hello
+
+*** overwritten mmaped region with: HELLO
+

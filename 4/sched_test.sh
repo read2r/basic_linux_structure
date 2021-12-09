@@ -1,7 +1,7 @@
 #!/bin/bash
 #sched_test.sh
 
-removePreviousTestLog() {
+_removePreviousTestLog() {
     printf "Removing Previous Test Log...\t"
     raw=`ls | grep \\.log`
     res=(`echo $raw | tr " " "\n"`)
@@ -14,6 +14,12 @@ removePreviousTestLog() {
     else
         printf "No previous log\n"
     fi
+}
+
+removePreviousTestLog() {
+    printf "Removing Previous Test Log...\t"
+    rm -f *.log
+    printf "Done!\n"
 }
 
 test1() {
